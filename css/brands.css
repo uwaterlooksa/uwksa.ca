@@ -1,0 +1,394 @@
+/*
+* littlelink.io
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/*
+* Built using on:
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+
+- Buttons
+- Brand Styles
+
+*/
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button,
+button {
+  display: inline-block;
+  text-decoration: none;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  width: 300px;
+  /* font-weight: 700; */
+  font-weight: 400;
+  line-height: 20px;
+  padding: 14px 12px 12px 12px;
+  letter-spacing: 0.1px;
+  white-space: wrap;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
+button:hover,
+.button:focus {
+  color: #212121;
+  border-color: #888;
+  outline: #7AB8FF solid 3px
+}
+
+.button.button-primary {
+  color: #fff;
+  filter: brightness(90%);
+}
+
+.button.button-primary:hover,
+.button.button-primary:focus {
+  color: #fff;
+  filter: brightness(90%);
+}
+
+/* Brand Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.icon {
+  padding: 0px 8px 3.5px 0px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+/* Brand Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Default (this is great for your own brand color!) */
+.button.button-default {
+  color: #ffffff;
+  background-color: #0047A0;
+  /* background-color: #CD2E3A; */
+}
+
+.button.button-default:hover,
+.button.button-default:focus {
+  filter: brightness(90%);
+}
+
+/* Cal.com */
+.button.button-cal {
+  color: #FFFFFF;
+  background-color: #292929;
+  border: 1px solid #FFFFFF;
+}
+
+.button.button-cal:hover,
+.button.button-cal:focus {
+  filter: brightness(90%);
+}
+
+/* Calendly */
+.button.button-calendly {
+  color: #FFFFFF;
+  background-color: #006BFF;
+}
+
+.button.button-calendly:hover,
+.button.button-calendly:focus {
+  filter: brightness(90%);
+}
+
+/* dev.to */
+.button.button-dev-to {
+  color: #000000;
+  background-color: #f5f5f5;
+  border: 1px solid #212121;
+}
+
+.button.button-dev-to:hover,
+.button.button-dev-to:focus {
+  filter: brightness(90%);
+}
+
+
+.button.button-discogs-alt:hover,
+.button.button-discogs-alt:focus {
+  filter: brightness(90%);
+}
+
+/* Discord */
+.button.button-discord {
+  color: #ffffff;
+  background-color: #5865f2;
+}
+
+.button.button-discord:hover,
+.button.button-discord:focus {
+  filter: brightness(90%);
+}
+
+/* Facebook */
+.button.button-faceb {
+  color: #ffffff;
+  background-color: #1877f2;
+}
+
+.button.button-faceb:hover,
+.button.button-faceb:focus {
+  filter: brightness(90%);
+}
+
+/* Facebook Messenger */
+.button.button-messenger {
+  color: #ffffff;
+  background-image: linear-gradient(25deg,
+      #0099ff,
+      #5f5dff,
+      #a033ff,
+      #c740cc,
+      #ff5280,
+      #ff7061);
+}
+
+.button.button-messenger:hover,
+.button.button-messenger:focus {
+  filter: brightness(90%);
+}
+
+/* GitHub */
+.button.button-github {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+
+.button.button-github:hover,
+.button.button-github:focus {
+  filter: brightness(90%);
+}
+
+/* GitLab */
+.button.button-gitlab {
+  color: #ffffff;
+  background-color: #6151b2;
+}
+
+.button.button-gitlab:hover,
+.button.button-gitlab:focus {
+  filter: brightness(90%);
+}
+
+/* Instagram */
+.button.button-instagram {
+  color: #ffffff;
+  background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+}
+
+.button.button-instagram:hover,
+.button.button-instagram:focus {
+  filter: brightness(90%);
+}
+
+/* LinkedIn */
+.button.button-linked {
+  color: #ffffff;
+  background-color: #2867b2;
+}
+
+.button.button-linked:hover,
+.button.button-linked:focus {
+  filter: brightness(90%);
+}
+
+/* Medium */
+.button.button-medium {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+
+.button.button-medium:hover,
+.button.button-medium:focus {
+  filter: brightness(90%);
+}
+
+/* Notion */
+.button.button-notion {
+  color: #000000;
+  border: 1px solid #212121;
+  background-color: #ffffff;
+}
+
+/* Reddit */
+.button.button-reddit {
+  color: #FFFFFF;
+  background-color: #FF4500;
+}
+
+.button.button-reddit:hover,
+.button.button-reddit:focus {
+  filter: brightness(90%);
+}
+
+/* Signal */
+.button.button-signal {
+  color: #ffffff;
+  background-color: #3a76f0;
+}
+
+.button.button-signal:hover,
+.button.button-signal:focus {
+  filter: brightness(90%);
+}
+
+/* Slack */
+.button.button-slack {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
+}
+
+/* Telegram */
+.button.button-telegram {
+  color: #ffffff;
+  background-color: #3faee8;
+}
+
+.button.button-telegram:hover,
+.button.button-telegram:focus {
+  filter: brightness(90%);
+}
+
+/* Threads */
+.button.button-threads {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+
+.button.button-threads:hover,
+.button.button-threads:focus {
+  filter: brightness(90%);
+}
+
+/* TikTok */
+.button.button-tiktok {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+
+.button.button-tiktok:hover,
+.button.button-tiktok:focus {
+  filter: brightness(90%);
+}
+
+/* Twitch */
+.button.button-twitch {
+  color: #ffffff;
+  background-color: #9146ff;
+}
+
+.button.button-twitch:hover,
+.button.button-twitch:focus {
+  filter: brightness(90%);
+}
+
+/* Website */
+.button.button-web {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+
+.button.button-web:hover,
+.button.button-web:focus {
+  filter: brightness(90%);
+}
+
+/* X */
+.button.button-x {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+
+.button.button-x:hover,
+.button.button-x:focus {
+  filter: brightness(90%);
+}
+
+/* YouTube */
+.button.button-yt {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+
+.button.button-yt:hover,
+.button.button-yt:focus {
+  filter: brightness(90%);
+}
+
+/* Zoom */
+.button.button-zoom {
+  color: #ffffff;
+  background-color: #0B5CFF;
+}
+
+.button.button-zoom:hover,
+.button.button-zoom:focus {
+  filter: brightness(90%);
+}
+
+/* UWATERLOO */
+.button.button-uwaterloo {
+  color: #000000;
+  background-color: #FED34C;
+}
+
+.button.button-uwaterloo:hover,
+.button.button-uwaterloo:focus {
+  filter: brightness(90%);
+}
+
+/* UWATERLOO RED */
+.button.button-uwaterloo-red {
+  color: #ffffff;
+  background-color: #CD2E3A;
+}
+
+.button.button-uwaterloo-red:hover,
+.button.button-uwaterloo-red:focus {
+  filter: brightness(90%);
+}
+
+/* KAKAOTALK */
+.button.button-kakaotalk {
+  color: #000000;
+  background-color: #fae100;
+}
+
+
+.button.button-kakaotalk:hover,
+.button.button-kakaotalk:focus {
+  filter: brightness(90%);
+}
